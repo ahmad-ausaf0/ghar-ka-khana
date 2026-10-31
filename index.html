@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ghar Ka Khana — Ghar Jaisa North Indian Food</title>
+  <meta name="description" content="Home-made North Indian food, cooked fresh in a home kitchen and delivered to your door. Ghar jaisa khana, every day." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <a class="brand" href="#hero">
+      <span class="brand-mark" aria-hidden="true">🍲</span>
+      <span class="brand-name">Ghar Ka Khana</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#contact" class="nav-cta">Order</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Home-made · North Indian · Fresh daily</p>
+      <h1>Ghar Jaisa Khana,<br /><span class="hero-accent">Delivered To Your Door.</span></h1>
+      <p class="hero-sub">
+        Slow-cooked dal, fluffy parathas, and the kind of food that tastes like your
+        mother's kitchen. Cooked in small batches, every single day.
+      </p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary" id="heroMenuBtn">See The Menu</a>
+        <a href="#how-it-works" class="btn btn-ghost">How It Works</a>
+      </div>
+      <p class="hero-note">Veg kitchen · No preservatives · Delivered hot in your neighbourhood</p>
+    </div>
+  </section>
+
+  <!-- ===== Menu ===== -->
+  <section class="section" id="menu">
+    <div class="container">
+      <h2 class="section-title">Today's Menu</h2>
+      <p class="section-sub">Everything is made fresh each morning in small home batches. Click a dish to enquire.</p>
+      <div class="menu-grid" id="menuGrid"></div>
+      <p class="menu-note">Prices are per serving, inclusive of packaging. Combos and tiffin plans coming soon.</p>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="section section-alt" id="about">
+    <div class="container about-grid">
+      <div>
+        <h2 class="section-title">About Our Home Kitchen</h2>
+        <p>
+          Ghar Ka Khana started the way most good things do: too much dal makhani after a
+          Sunday family lunch, and neighbours asking for a dabba. We are a small, all-veg
+          home kitchen that cooks North Indian food the way it is made at home, slow, patient
+          and without shortcuts.
+        </p>
+        <p>
+          No preservatives, no taste makers from a packet, no mass production. Just fresh
+          vegetables from the local sabzi mandi, ghee where it matters, masalas roasted and
+          ground at home, and the same recipes that have run in the family for three generations.
+        </p>
+        <ul class="about-points">
+          <li>Small batches, cooked fresh every morning</li>
+          <li>Completely vegetarian kitchen</li>
+          <li>Whole spices, no artificial flavouring</li>
+          <li>Packed in food-grade, microwave-safe boxes</li>
+        </ul>
+      </div>
+      <div class="about-card" aria-hidden="true">
+        <div class="about-emoji">🥘</div>
+        <p class="about-quote">"Khaana banao doston ke liye, par khilao ghar jaisa."</p>
+        <p class="about-caption">The rule our kitchen runs on</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== How It Works ===== -->
+  <section class="section" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title">How It Works</h2>
+      <p class="section-sub">Three simple steps from craving to first bite.</p>
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">1</span>
+          <h3>Choose Your Dish</h3>
+          <p>Browse the menu above and pick what you're in the mood for. Daily specials are posted every morning.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">2</span>
+          <h3>Enquire</h3>
+          <p>Tap "Enquire" on any dish or reach us from the contact section below. We confirm your order, quantity and delivery slot the same day.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">3</span>
+          <h3>Home Delivery</h3>
+          <p>Your food is cooked fresh, packed hot and delivered to your doorstep, usually within hours of your enquiry.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-title">Ghar Ka Khana</h3>
+        <p>Ghar jaisa khana, home delivered. A home-run North Indian kitchen serving fresh, pure-veg food daily.</p>
+      </div>
+      <div>
+        <h3 class="footer-title">Contact</h3>
+        <p class="contact-placeholder">
+          Phone: [your phone number]<br />
+          WhatsApp: [your WhatsApp number]<br />
+          Email: [your email]<br />
+          Serving: [your locality / delivery area]
+        </p>
+      </div>
+      <div>
+        <h3 class="footer-title">Hours</h3>
+        <p>Orders: 9 AM – 7 PM<br />Delivery slots: 12 – 2 PM &amp; 7 – 9 PM<br />Closed Mondays</p>
+      </div>
+    </div>
+    <p class="footer-bottom">© <span id="year"></span> Ghar Ka Khana. Made with ghee, pyaar, and a little CSS.</p>
+  </footer>
+
+  <!-- ===== Enquiry toast ===== -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
